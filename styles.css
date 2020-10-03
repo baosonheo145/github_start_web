@@ -1,0 +1,125 @@
+body{
+    background-color: white ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+.name{
+    color: blue;
+    font-size: 15px;
+    
+}
+.header1{
+    background: whitesmoke ;
+    display: flex;
+    
+}
+
+ul{
+    padding:0px;
+    margin:0px;
+}
+/* MENU */
+
+#menu ul{
+    list-style-type: none; /* Bỏ dấu chấm đầu dòng*/
+    text-align: center;
+    
+}
+#menu ul li {
+    display: inline-table;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    color: blue;
+    font-size: 30px;
+}
+#menu ul li a:hover{
+background: cornsilk;
+color: rgb(88, 41, 41);
+}
+#b{
+    width: 40px;
+    height: 40px;
+}
+#b img{
+    width: 40px;
+    height: 40px;
+}
+#c{
+    width: 40px;
+    height: 40px;
+}
+#c img{
+    width: 40px;
+    height: 40px;
+}
+.fab.fa-steam{
+    font-size: 35 px ;
+}
+/* me */
+#me ul {
+    list-style-type: none;
+    text-align: right;
+}
+#me ul li{
+    display: inline-table;
+   width: 60px;
+   height: 30px;
+   line-height: 30px;
+}
+.logo{
+    background-color: royalblue;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 39px;
+    border-radius: 30px;
+    padding-top: 0px;
+    text-align: center;
+    position: relative;
+    top: -6px;
+    left: 15px;
+}
+/* input */
+
+input[type=search] {
+    background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png)no-repeat 205px center;
+
+}
+
+.input1 input{
+    border-radius: 20px;
+    position: relative;
+    left: -23px;
+}
+/* Me */
+#e img{
+    height: 35px;
+    width: 35px;
+    border-radius: 22px;
+    
+}
+.fas.fa-plus-circle{
+    font-size: 34px;
+    position: relative;
+    top:9px;
+    left: 5px ;
+}
+.fab.fa-facebook-messenger
+{
+    font-size: 34px;
+    position: relative;
+    top:9px;
+    left: 5px ;
+}
+.fas.fa-bell{
+    font-size: 34px;
+    position: relative;
+    top:9px;
+    left: 5px ;
+}
+#me ul{
+    position: relative;
+    left: -30px;
+    top: -9px;
+}
